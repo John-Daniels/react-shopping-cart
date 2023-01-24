@@ -4,9 +4,11 @@ import { AiOutlineShoppingCart } from "react-icons/ai";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useSelector } from "react-redux";
 import { Link } from "react-router-dom";
+import { useAppSelector } from "../../store";
+import { ICartItem } from "../../store/cart.slice";
 
 const Navbar = () => {
-  const cartItems = useSelector((state) => state.cart.items);
+  const cartItems = useAppSelector((state) => state.cart.items) as ICartItem[];
 
   return (
     <div className="h-[60px] shadow-sm w-full bg-white flex justify-between items-center">
@@ -20,7 +22,7 @@ const Navbar = () => {
       </div>
 
       <div className="px-5 relative">
-        <span class="rounded-full w-[15px] h-[15px] flex justify-center items-center align-baseline font-bold text-[9px] p-1 bg-[red] text-white absolute -top-1 ml-[1.20rem]">
+        <span className="rounded-full w-[15px] h-[15px] flex justify-center items-center align-baseline font-bold text-[9px] p-1 bg-[red] text-white absolute -top-1 ml-[1.20rem]">
           {cartItems.length}
         </span>
         <Link to={"/cart"}>
