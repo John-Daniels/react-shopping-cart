@@ -1,6 +1,6 @@
 import React from "react";
 
-const CartSummary = ({ cartItems = [] }) => {
+const CartSummary = ({ cartItems }) => {
   return (
     <div
       className={`summary flex flex-col flex-[30%] bg-white rounded-xl xl p-5 h-fit shadow-lg my-5 lg:my-0 ${

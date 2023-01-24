@@ -58,12 +58,12 @@ const CartItem = ({ product }) => {
 
         <div className="flex flex-col gap-1">
           <h1 className="text-xl font-semibold">${product.price.toFixed(2)}</h1>
-          <duv
+          <div
             className="py-1 px-2 rounded-lg bg-[red] text-center w-fit text-[14px] text-white hover:opacity-60 transition cursor-pointer"
             onClick={() => dispatch(remove(id))}
           >
             remove
-          </duv>
+          </div>
         </div>
       </div>
     </div>

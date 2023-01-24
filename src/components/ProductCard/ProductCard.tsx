@@ -1,4 +1,4 @@
-import { add } from "../../store/cart.slice";
+import { ICartItem, add } from "../../store/cart.slice";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 import { useDispatch } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";

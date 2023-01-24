@@ -3,9 +3,11 @@ import products from "../../assets/files/products.json";
 import { useDispatch, useSelector } from "react-redux";
 import CartSummary from "../../components/CartSummary/CartSummary";
 import CartSection from "../../components/CartSection/CartSection";
+import { useAppSelector } from "../../store";
+import { ICartItem } from "../../store/cart.slice";
 
 const Cart = () => {
-  const cartItems = useSelector((store) => store.cart.items);
+  const cartItems = useAppSelector((store) => store.cart.items) as ICartItem[];
 
   return (
     <div
