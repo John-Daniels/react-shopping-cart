@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "iPhone 12 Pro",
+    "desc": "Apple iPhone 12th generation",
+    "price": 999,
+    "color": "#33505a",
+    "image": "https://store.storeimages.cdn-apple.com/4982/as-images.apple.com/is/iphone-12-pro-blue-hero?wid=940&hei=1112&fmt=png-alpha&qlt=80&.v=1604021661000"
+  },
+  {
+    "id": 2,
+    "name": "Pixel 5",
+    "desc": "Google Pixel phone 5th generation",
+    "price": 699,
+    "color": "#00ac51",
+    "image": "https://www.telstra.com.au/content/dam/tcom/lego/2020/plans-devices/mobiles/google-pixel-5/shared-google-pixel-5-black-05-900x1200.png"
+  },
+  {
+    "id": 3,
+    "name": "M1 Macbook Air",
+    "desc": "Apple Macbook air with apple silicon",
+    "price": 1099,
+    "color": "#e0bfae",
+    "image": "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP825/macbookair.png"
+  },
+  {
+    "id": 4,
+    "name": "Airpods Pro",
+    "desc": "Apple Aipods Pro 1st generation",
+    "price": 200,
+    "color": "#e3e4e9",
+    "image": "https://crdms.images.consumerreports.org/c_lfill,w_598/prod/products/cr/models/400116-wireless-portable-headphones-apple-airpods-pro-10009323.png"
+  }
+]

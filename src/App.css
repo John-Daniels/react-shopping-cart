@@ -1,0 +1,34 @@
+.app {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.brand {
+  font-family: "Satisfy", cursive;
+  color: rgb(90, 91, 94);
+}
+
+#product__card img {
+  transition: 0.5s;
+}
+#product__card img:hover {
+  transform: scale(1.15) translateY(-20px);
+}
+#product__card .cart-btn {
+  transition: 0.5s;
+}
+
+#cart .actions button {
+  padding: 8px 10px;
+  user-select: none;
+  outline: none;
+  border: none;
+}
+
+#cart .actions p {
+  padding: 8px 14px;
+
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  cursor: pointer;
+}
