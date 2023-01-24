@@ -40,7 +40,7 @@ export const cartSlice = createSlice({
       if (!cartItem) {
         state.items.unshift(newCart);
       } else {
-        state.items = state.items.filter((items) => items.id !== newCart.id);
+        state.items = state.items.filter((item) => item.id !== newCart.id);
       }
 
       return state;
